@@ -329,6 +329,7 @@ Password: M9KREpw#0-(c
 **Expected result:** Favicon is loaded
 
 **Actual result:** Favicon isn't loaded with error 403 (Forbidden) 
+
 **Attachments:**
 
 <img width="452" alt="image" src="https://github.com/ViktoriiaBautina/bug-challenge/blob/main/images/Picture%208.png">
@@ -588,7 +589,7 @@ Status code is 200 OK. No errors occur.
 
 **Actual result:** It is possible to login to Stage env, see the content and perform actions with the credentials for Prod.
 
-Attachments:
+**Attachments**:
 
 <img width="365" alt="image" src="https://github.com/ViktoriiaBautina/bug-challenge/blob/main/images/Picture%2014.png">
 
