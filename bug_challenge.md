@@ -1,4 +1,4 @@
-**Bug challenge**
+
 
 **ID: 01 Summary** : The First name and the Last name the column names are misplaced in the table
 
@@ -15,8 +15,8 @@ Password: M9KREpw#0-(c
 **Steps to reproduce:**
 
 1. Click on the "Add Employee" button;
-2. Fill First name field with the value "Mark;
-3. Fill Last name field with the value "Toy";
+2. Fill in First name field with the value "Mark;
+3. Fill in Last name field with the value "Toy";
 4. Click on the "Add" button
 
 **Expected result:**
@@ -33,7 +33,8 @@ Toy is in the First name column;
 
 **Attachments:**
 
-![](RackMultipart20231015-1-2aro2s_html_348c7d7579cdda51.png)
+<img width="423" alt="image" src="https://github.com/ViktoriiaBautina/bug-challenge/assets/96127141/5960769e-f4f9-41f4-a58e-42e3a1cbf4e8">
+
 
 **Severity** : Low
 
@@ -53,7 +54,7 @@ Toy is in the First name column;
 
 **Pre-conditions:**
 
-1. Login to [https://wmxrwq14uc.execute-api.us-east-1.amazonaws.com/Prod/Benefits](https://wmxrwq14uc.execute-api.us-east-1.amazonaws.com/Prod/Benefits)with valid credentials
+1. Login to [https://wmxrwq14uc.execute-api.us-east-1.amazonaws.com/Prod/Benefits](https://wmxrwq14uc.execute-api.us-east-1.amazonaws.com/Prod/Benefits) with valid credentials
 
 Username: TestUser319
 
@@ -82,7 +83,8 @@ No validation message appears on UI describing that the field FirstName/Last nam
 
 **Attachments:**
 
-![](RackMultipart20231015-1-2aro2s_html_c6f9d38134a8446b.png)
+<img width="452" alt="image" src="https://github.com/ViktoriiaBautina/bug-challenge/assets/96127141/8e8f26e7-cacf-4b43-9f71-a7ffa597115b">
+
 
 **Severity** : Low
 
@@ -102,7 +104,7 @@ No validation message appears on UI describing that the field FirstName/Last nam
 
 **Pre-conditions:**
 
-1. Login to [https://wmxrwq14uc.execute-api.us-east-1.amazonaws.com/Prod/Benefits](https://wmxrwq14uc.execute-api.us-east-1.amazonaws.com/Prod/Benefits)with a valid credentials
+1. Login to [https://wmxrwq14uc.execute-api.us-east-1.amazonaws.com/Prod/Benefits](https://wmxrwq14uc.execute-api.us-east-1.amazonaws.com/Prod/Benefits) with a valid credentials
 
 Username: TestUser319
 
@@ -113,13 +115,13 @@ Password: M9KREpw#0-(c
 **Steps to reproduce:**
 
 1. Click on the "Add Employee" button;
-2. Fill First name/Last name field with the value "Micha$e\*l5"
-3. Fill Last name/First name field with the value "L!)eo3";
+2. Fill in First name/Last name field with the value "Micha$e\*l5"
+3. Fill in Last name/First name field with the value "L!)eo3";
 4. Click on the "Add" button
 
 **Expected result:**
 
-Impossible submit adding a new employee form with numbers and special symbols in First name/Last name fields;
+Impossible to submit adding a new employee form with numbers and special symbols in First name/Last name fields;
 
 **Actual result:**
 
@@ -127,7 +129,8 @@ It is allowed to submit adding a new employee form with numbers and special symb
 
 **Attachments:**
 
-![](RackMultipart20231015-1-2aro2s_html_d26e1397084f1539.png)
+<img width="452" alt="image" src="https://github.com/ViktoriiaBautina/bug-challenge/assets/96127141/45897b16-1ea7-423d-b4c5-983953f80251">
+
 
 **Severity** : Medium
 
@@ -143,11 +146,11 @@ It is allowed to submit adding a new employee form with numbers and special symb
 
 **Date** : 13/10/2023
 
-**ID: 04 Summary** : Internal server error occurs when Dependents field contain letter or special character
+**ID: 04 Summary** : Internal server error occurs when Dependents field contains letters or special character
 
 **Pre-conditions:**
 
-1. Login to [https://wmxrwq14uc.execute-api.us-east-1.amazonaws.com/Prod/Benefits](https://wmxrwq14uc.execute-api.us-east-1.amazonaws.com/Prod/Benefits)with a valid credentials
+1. Login to [https://wmxrwq14uc.execute-api.us-east-1.amazonaws.com/Prod/Benefits](https://wmxrwq14uc.execute-api.us-east-1.amazonaws.com/Prod/Benefits) with a valid credentials
 
 Username: TestUser319
 
@@ -173,7 +176,8 @@ Validation message occurs explaining that Dependents is a number between 0 and 3
 
 **Attachments:**
 
-![](RackMultipart20231015-1-2aro2s_html_820f2e2e0da4fdbe.png)
+<img width="242" alt="image" src="https://github.com/ViktoriiaBautina/bug-challenge/assets/96127141/de511efe-cd1b-4030-9ffc-fec89f2c89fb">
+
 
 **Severity** : High
 
@@ -193,7 +197,7 @@ Validation message occurs explaining that Dependents is a number between 0 and 3
 
 **Pre-conditions:**
 
-1. Login to [https://wmxrwq14uc.execute-api.us-east-1.amazonaws.com/Prod/Benefits](https://wmxrwq14uc.execute-api.us-east-1.amazonaws.com/Prod/Benefits)with a valid credentials
+1. Login to [https://wmxrwq14uc.execute-api.us-east-1.amazonaws.com/Prod/Benefits](https://wmxrwq14uc.execute-api.us-east-1.amazonaws.com/Prod/Benefits) with a valid credentials
 
 Username: TestUser319
 
@@ -215,7 +219,8 @@ There is not any notification message about future logout. Error 401 Unauthorize
 
 **Attachments:**
 
-![](RackMultipart20231015-1-2aro2s_html_317164d8496b0055.png)
+<img width="452" alt="image" src="https://github.com/ViktoriiaBautina/bug-challenge/assets/96127141/c59159ad-0b74-4588-a115-cb212539cb3f">
+
 
 **Severity** : Low
 
@@ -235,7 +240,7 @@ There is not any notification message about future logout. Error 401 Unauthorize
 
 **Pre-conditions:**
 
-1. Login to [https://wmxrwq14uc.execute-api.us-east-1.amazonaws.com/Prod/Benefits](https://wmxrwq14uc.execute-api.us-east-1.amazonaws.com/Prod/Benefits)with a valid credentials
+1. Login to [https://wmxrwq14uc.execute-api.us-east-1.amazonaws.com/Prod/Benefits](https://wmxrwq14uc.execute-api.us-east-1.amazonaws.com/Prod/Benefits) with a valid credentials
 
 Username: TestUser319
 
@@ -259,7 +264,7 @@ After logout there is no visible actions on UI (e.g. redirections on Login page 
 
 **Pre-conditions:**
 
-1. Login to [https://wmxrwq14uc.execute-api.us-east-1.amazonaws.com/Prod/Benefits](https://wmxrwq14uc.execute-api.us-east-1.amazonaws.com/Prod/Benefits)with a valid credentials
+1. Login to [https://wmxrwq14uc.execute-api.us-east-1.amazonaws.com/Prod/Benefits](https://wmxrwq14uc.execute-api.us-east-1.amazonaws.com/Prod/Benefits) with a valid credentials
 
 Username: TestUser319
 
@@ -295,7 +300,7 @@ The order for recently created records is consistent (e.g. on the top, on the bo
 
 **Pre-conditions:**
 
-1. Login to [https://wmxrwq14uc.execute-api.us-east-1.amazonaws.com/Prod/Benefits](https://wmxrwq14uc.execute-api.us-east-1.amazonaws.com/Prod/Benefits)with a valid credentials
+1. Login to [https://wmxrwq14uc.execute-api.us-east-1.amazonaws.com/Prod/Benefits](https://wmxrwq14uc.execute-api.us-east-1.amazonaws.com/Prod/Benefits) with a valid credentials
 
 Username: TestUser319
 
@@ -314,7 +319,7 @@ Password: M9KREpw#0-(c
 
 **Attachments:**
 
-![](RackMultipart20231015-1-2aro2s_html_9d7da27c96eb9760.png)
+<img width="452" alt="image" src="https://github.com/ViktoriiaBautina/bug-challenge/assets/96127141/a7e6def5-eb61-4cf2-ae2b-aa0f3894b51b">
 
 **Severity** : Low
 
@@ -353,7 +358,8 @@ The error message occurs: "There were one or more problems that prevented you fr
 
 **Attachments:**
 
-![](RackMultipart20231015-1-2aro2s_html_4768c0356b5a52a2.png)
+<img width="452" alt="image" src="https://github.com/ViktoriiaBautina/bug-challenge/assets/96127141/f758d535-56a4-4a8a-ae0b-f0c0e8cb70dc">
+
 
 **Severity** : High
 
@@ -386,9 +392,10 @@ It is possible to see a table header, "Add" button and Add Employee form without
 
 **Attachments:**
 
-![](RackMultipart20231015-1-2aro2s_html_916f5146a19d0d6c.png)
+<img width="350" alt="image" src="https://github.com/ViktoriiaBautina/bug-challenge/assets/96127141/de571206-772a-49ed-9c1f-7cd83d700fda">
 
-![](RackMultipart20231015-1-2aro2s_html_608f70dd6ca47a4c.png)
+<img width="330" alt="image" src="https://github.com/ViktoriiaBautina/bug-challenge/assets/96127141/f594d515-4a6c-4bb4-ae21-af4756b25d81">
+
 
 **Severity** : High
 
@@ -425,7 +432,8 @@ The Internal Server error 500 occurs.
 
 **Attachments:**
 
-![](RackMultipart20231015-1-2aro2s_html_2e674a5d5c5ee20d.png)
+<img width="452" alt="image" src="https://github.com/ViktoriiaBautina/bug-challenge/assets/96127141/3fb60851-834c-4ca0-a5ac-fb0de16bbe92">
+
 
 **Severity** : High
 
@@ -457,6 +465,7 @@ Authorization Basic VGVzdFVzZXIzMTk6TTlLUkVwdyMwLShj
 
 With a body:
 
+```json
 {
 
 "id":"1945d706-39f3-49eb-bea8-98abcf766e5e",
@@ -468,8 +477,11 @@ With a body:
 "dependants":2
 
 }
+```
 
 **Expected result:**
+```json
+{
 
 "dependants":2,
 
@@ -480,8 +492,12 @@ With a body:
 "benefitsCost":76.92308,
 
 "net":1923.0769
+}
+```
 
 **Actual result:** The salary and gross are 0.0 and calculations are not correct
+```json
+{
 
 "dependants":2,
 
@@ -492,6 +508,8 @@ With a body:
 "benefitsCost":76.92308,
 
 "net":-76.92308
+}
+```
 
 **Severity** : High
 
@@ -516,11 +534,11 @@ With a body:
 
 **Expected result:**
 
-After the first request the record is deleted. The error 404Not Found should return.
+After the first request, the record is deleted. The error 404Not Found should return.
 
 **Actual result:**
 
-Status code is 200 OK. No errors occurs.
+Status code is 200 OK. No errors occur.
 
 **Attachments:**
 
@@ -538,9 +556,9 @@ Status code is 200 OK. No errors occurs.
 
 **Date** : 14/10/2023
 
-**ID: 14 Summary** : Security Vulnerability: It is allowed to login to Stage environment when changing Stage instead of Prod on this path: https://wmxrwq14uc.execute-api.us-east-1.amazonaws.com/Prod/Account/Login
+**ID: 14 Summary** : Security Vulnerability: It is allowed to log in to Stage environment when changing Stage instead of Prod on this path: https://wmxrwq14uc.execute-api.us-east-1.amazonaws.com/Prod/Account/Login
 
-**Description** : It is allowed to login to Stage environment with a Prod valid credentials
+**Description** : It is allowed to log in to Stage environment with a Prod valid credentials
 
 **Steps to reproduce:**
 
@@ -557,7 +575,7 @@ Status code is 200 OK. No errors occurs.
 
 Attachments:
 
-![](RackMultipart20231015-1-2aro2s_html_22cf149122a66199.png)
+<img width="365" alt="image" src="https://github.com/ViktoriiaBautina/bug-challenge/assets/96127141/5ea74a8b-c438-440b-9c1b-3079f0413b23">
 
 **Severity** : Highest
 
