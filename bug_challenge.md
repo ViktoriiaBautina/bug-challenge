@@ -1,10 +1,10 @@
 
 
-**ID: 01 Summary** : The First name and the Last name the column names are misplaced in the table
+**ID: 01 Summary** : The First name and the Last name - the column names are misplaced in the table
 
 **Pre-conditions:**
 
-1. Login to [https://wmxrwq14uc.execute-api.us-east-1.amazonaws.com/Prod/Benefits](https://wmxrwq14uc.execute-api.us-east-1.amazonaws.com/Prod/Benefits) with a valid credentials
+1. Login to [https://wmxrwq14uc.execute-api.us-east-1.amazonaws.com/Prod/Account/Login](https://wmxrwq14uc.execute-api.us-east-1.amazonaws.com/Prod/Account/Login) with a valid credentials
 
 Username: TestUser319
 
@@ -42,7 +42,7 @@ Toy is in the First name column;
 
 **Status** : Open
 
-**Environment** : 13.3.1 (a) (22E772610a), Google Chrome Version 117.0.5938.149
+**Environment** :  macOS 13.3.1 (a) (22E772610a), Google Chrome Version 117.0.5938.149
 
 **Assignee** :
 
@@ -54,7 +54,7 @@ Toy is in the First name column;
 
 **Pre-conditions:**
 
-1. Login to [https://wmxrwq14uc.execute-api.us-east-1.amazonaws.com/Prod/Benefits](https://wmxrwq14uc.execute-api.us-east-1.amazonaws.com/Prod/Benefits) with valid credentials
+1. Login to [https://wmxrwq14uc.execute-api.us-east-1.amazonaws.com/Prod/Account/Login](https://wmxrwq14uc.execute-api.us-east-1.amazonaws.com/Prod/Account/Login) with valid credentials
 
 Username: TestUser319
 
@@ -69,8 +69,8 @@ I see in the response on Chrome devtools: "errorMessage": "The field FirstName m
 **Steps to reproduce:**
 
 1. Click on the "Add Employee" button;
-2. Fill First name/Last name field with the value "Tonyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy" (51 letter)
-3. Fill Last name/First name field with the value "Joe";
+2. Fill in First name/Last name field with the value "Tonyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy" (51 letter)
+3. Fill in Last name/First name field with the value "Joe";
 4. Click on the "Add" button
 
 **Expected result:**
@@ -92,7 +92,7 @@ No validation message appears on UI describing that the field FirstName/Last nam
 
 **Status** : Open
 
-**Environment** : 13.3.1 (a) (22E772610a), Google Chrome Version 117.0.5938.149
+**Environment** : macOS 13.3.1 (a) (22E772610a), Google Chrome Version 117.0.5938.149
 
 **Assignee** :
 
@@ -104,7 +104,7 @@ No validation message appears on UI describing that the field FirstName/Last nam
 
 **Pre-conditions:**
 
-1. Login to [https://wmxrwq14uc.execute-api.us-east-1.amazonaws.com/Prod/Benefits](https://wmxrwq14uc.execute-api.us-east-1.amazonaws.com/Prod/Benefits) with a valid credentials
+1. Login to [https://wmxrwq14uc.execute-api.us-east-1.amazonaws.com/Prod/Account/Login](https://wmxrwq14uc.execute-api.us-east-1.amazonaws.com/Prod/Account/Login) with a valid credentials
 
 Username: TestUser319
 
@@ -132,13 +132,13 @@ It is allowed to submit adding a new employee form with numbers and special symb
 <img width="452" alt="image" src="https://github.com/ViktoriiaBautina/bug-challenge/assets/96127141/45897b16-1ea7-423d-b4c5-983953f80251">
 
 
-**Severity** : Medium
+**Severity** : Low
 
 **Priority** : Medium
 
 **Status** : Open
 
-**Environment** : 13.3.1 (a) (22E772610a), Google Chrome Version 117.0.5938.149
+**Environment** : macOS 13.3.1 (a) (22E772610a), Google Chrome Version 117.0.5938.149
 
 **Assignee** :
 
@@ -146,11 +146,11 @@ It is allowed to submit adding a new employee form with numbers and special symb
 
 **Date** : 13/10/2023
 
-<br> <br> **ID: 04 Summary** : Internal server error occurs when Dependents field contains letters or special character
+<br> <br> **ID: 04 Summary** : Internal server error occurs when Dependants field contains letters or special character
 
 **Pre-conditions:**
 
-1. Login to [https://wmxrwq14uc.execute-api.us-east-1.amazonaws.com/Prod/Benefits](https://wmxrwq14uc.execute-api.us-east-1.amazonaws.com/Prod/Benefits) with a valid credentials
+1. Login to [https://wmxrwq14uc.execute-api.us-east-1.amazonaws.com/Prod/Account/Login](https://wmxrwq14uc.execute-api.us-east-1.amazonaws.com/Prod/Account/Login) with a valid credentials
 
 Username: TestUser319
 
@@ -161,14 +161,14 @@ Password: M9KREpw#0-(c
 **Steps to reproduce:**
 
 1. Click on the "Add Employee" button;
-2. Fill in First name/Last name field with the value "Leo"
-3. Fill I Last name/First name field with the value "Nell"
-4. Fill in Dependents field with the value no number – string or special character
+2. Fill in First name field with the value "Leo"
+3. Fill in Last name field with the value "Nell"
+4. Fill in Dependants field with the value no number – string or special character
 5. Click on the "Add" button
 
 **Expected result:**
 
-Validation message occurs explaining that Dependents is a number between 0 and 32;
+Validation message occurs explaining that Dependants is a number between 0 and 32;
 
 **Actual result:**
 
@@ -185,7 +185,7 @@ Validation message occurs explaining that Dependents is a number between 0 and 3
 
 **Status** : Open
 
-**Environment** : 13.3.1 (a) (22E772610a), Google Chrome Version 117.0.5938.149
+**Environment** : macOS 13.3.1 (a) (22E772610a), Google Chrome Version 117.0.5938.149
 
 **Assignee** :
 
@@ -197,7 +197,7 @@ Validation message occurs explaining that Dependents is a number between 0 and 3
 
 **Pre-conditions:**
 
-1. Login to [https://wmxrwq14uc.execute-api.us-east-1.amazonaws.com/Prod/Benefits](https://wmxrwq14uc.execute-api.us-east-1.amazonaws.com/Prod/Benefits) with a valid credentials
+1. Login to [https://wmxrwq14uc.execute-api.us-east-1.amazonaws.com/Prod/Account/Login](https://wmxrwq14uc.execute-api.us-east-1.amazonaws.com/Prod/Account/Login) with a valid credentials
 
 Username: TestUser319
 
@@ -228,7 +228,7 @@ There is not any notification message about future logout. Error 401 Unauthorize
 
 **Status** : Open
 
-**Environment** : 13.3.1 (a) (22E772610a), Google Chrome Version 117.0.5938.149
+**Environment** : macOS 13.3.1 (a) (22E772610a), Google Chrome Version 117.0.5938.149
 
 **Assignee** :
 
@@ -236,11 +236,11 @@ There is not any notification message about future logout. Error 401 Unauthorize
 
 **Date** : 13/10/2023
 
-<br> <br> **ID: 06 Summary** : After logout there is no visible actions on UI e.g. redirections on Login page or notification
+<br> <br> **ID: 06 Summary** : After logout, there is no visible actions on UI e.g. redirections on a Login page or notification
 
 **Pre-conditions:**
 
-1. Login to [https://wmxrwq14uc.execute-api.us-east-1.amazonaws.com/Prod/Benefits](https://wmxrwq14uc.execute-api.us-east-1.amazonaws.com/Prod/Benefits) with a valid credentials
+1. Login to [https://wmxrwq14uc.execute-api.us-east-1.amazonaws.com/Prod/Account/Login](https://wmxrwq14uc.execute-api.us-east-1.amazonaws.com/Prod/Account/Login) with a valid credentials
 
 Username: TestUser319
 
@@ -266,7 +266,7 @@ After logout, there are no visible actions on UI (e.g. redirections on Login pag
 
 **Status** : Open
 
-**Environment** : 13.3.1 (a) (22E772610a), Google Chrome Version 117.0.5938.149
+**Environment** : macOS 13.3.1 (a) (22E772610a), Google Chrome Version 117.0.5938.149
 
 **Assignee** :
 
@@ -274,11 +274,11 @@ After logout, there are no visible actions on UI (e.g. redirections on Login pag
 
 **Date** : 13/10/2023
 
-<br> <br> **ID: 07 Summary** : A new created Employee record is displayed random place in the table
+<br> <br> **ID: 07 Summary** : A new created Employee record is displayed  in random place in the table
 
 **Pre-conditions:**
 
-1. Login to [https://wmxrwq14uc.execute-api.us-east-1.amazonaws.com/Prod/Benefits](https://wmxrwq14uc.execute-api.us-east-1.amazonaws.com/Prod/Benefits) with a valid credentials
+1. Login to [https://wmxrwq14uc.execute-api.us-east-1.amazonaws.com/Prod/Account/Login](https://wmxrwq14uc.execute-api.us-east-1.amazonaws.com/Prod/Account/Login) with a valid credentials
 
 Username: TestUser319
 
@@ -292,9 +292,9 @@ Password: M9KREpw#0-(c
 
 **Expected result:**
 
-The order for recently created records is consistent (e.g. on the top, on the bottom)
+The order for recently created records is consistent (e.g. at the top, at the bottom)
 
-**Actual result:** There is no consistent order to place a new created record. Sometimes a new element is displayed on the top, sometimes in the middle or on the bottom.
+**Actual result:** There is no consistent order to place a new created record. Sometimes a new element is displayed at the top, sometimes in the middle or at the bottom.
 
 **Severity** : Low
 
@@ -302,7 +302,7 @@ The order for recently created records is consistent (e.g. on the top, on the bo
 
 **Status** : Open
 
-**Environment** : 13.3.1 (a) (22E772610a), Google Chrome Version 117.0.5938.149
+**Environment** : macOS 13.3.1 (a) (22E772610a), Google Chrome Version 117.0.5938.149
 
 **Assignee** :
 
@@ -310,11 +310,11 @@ The order for recently created records is consistent (e.g. on the top, on the bo
 
 **Date** : 13/10/2023
 
-<br> <br> **ID: 08 Summary** : Favicon isn't loaded with error 403 (Forbidden) after refreshing the page
+<br> <br> **ID: 08 Summary** : Favicon isn't loaded with error 403 (Forbidden) 
 
 **Pre-conditions:**
 
-1. Login to [https://wmxrwq14uc.execute-api.us-east-1.amazonaws.com/Prod/Benefits](https://wmxrwq14uc.execute-api.us-east-1.amazonaws.com/Prod/Benefits) with a valid credentials
+1. Login to [https://wmxrwq14uc.execute-api.us-east-1.amazonaws.com/Prod/Account/Login](https://wmxrwq14uc.execute-api.us-east-1.amazonaws.com/Prod/Account/Login) with a valid credentials
 
 Username: TestUser319
 
@@ -325,12 +325,11 @@ Password: M9KREpw#0-(c
 **Steps to reproduce:**
 
 1. Refresh the page by clicking on the header "Paylocity Benefits Dashboard"
-2. Check the chrome devtools console
+2. Check the Chrome devtools console
 
 **Expected result:** Favicon is loaded
 
-**Actual result:** Favicon isn't loaded with error 403 (Forbidden) after refreshing the page
-
+**Actual result:** Favicon isn't loaded with error 403 (Forbidden) 
 **Attachments:**
 
 <img width="452" alt="image" src="https://github.com/ViktoriiaBautina/bug-challenge/assets/96127141/a7e6def5-eb61-4cf2-ae2b-aa0f3894b51b">
@@ -341,7 +340,7 @@ Password: M9KREpw#0-(c
 
 **Status** : Open
 
-**Environment** : 13.3.1 (a) (22E772610a), Google Chrome Version 117.0.5938.149
+**Environment** : macOS 13.3.1 (a) (22E772610a), Google Chrome Version 117.0.5938.149
 
 **Assignee** :
 
@@ -349,7 +348,7 @@ Password: M9KREpw#0-(c
 
 **Date** : 13/10/2023
 
-<br> <br> **ID: 09 Summary** : Error 500 occurs after login with an invalid Username
+<br> <br> **ID: 09 Summary** : Error 500 occurs when logging in with an invalid Username
 
 **Description** :
 
@@ -381,7 +380,7 @@ The error message occurs: "There were one or more problems that prevented you fr
 
 **Status** : Open
 
-**Environment** : 13.3.1 (a) (22E772610a), Google Chrome Version 117.0.5938.149
+**Environment** : macOS 13.3.1 (a) (22E772610a), Google Chrome Version 117.0.5938.149
 
 **Assignee** :
 
@@ -396,13 +395,13 @@ The error message occurs: "There were one or more problems that prevented you fr
 **Steps to reproduce:**
 
 1. Navigate to [https://wmxrwq14uc.execute-api.us-east-1.amazonaws.com/Prod/Account/Login](https://wmxrwq14uc.execute-api.us-east-1.amazonaws.com/Prod/Account/Login)
-2. Click on the header on the top of the page "Paylocity Benefits Dashboard"
+2. Click on the header at the top of the page "Paylocity Benefits Dashboard"
 
 **Expected result: "** Paylocity Benefits Dashboard" is refreshing the login page.
 
 **Actual result:**
 
-It is possible to see a table header, "Add" button and Add Employee form without login
+It is possible to see a table header, "Add" button and Add Employee form without logging in
 
 **Attachments:**
 
@@ -417,7 +416,7 @@ It is possible to see a table header, "Add" button and Add Employee form without
 
 **Status** : Open
 
-**Environment** : 13.3.1 (a) (22E772610a), Google Chrome Version 117.0.5938.149
+**Environment** : macOS 13.3.1 (a) (22E772610a), Google Chrome Version 117.0.5938.149
 
 **Assignee** :
 
@@ -455,7 +454,7 @@ The Internal Server error 500 occurs.
 
 **Status** : Open
 
-**Environment** : 13.3.1 (a) (22E772610a), Google Chrome Version 117.0.5938.149; Postman for Web Version 10.19.2-231013-1449
+**Environment** : macOS 13.3.1 (a) (22E772610a), Google Chrome Version 117.0.5938.149; Postman for Web Version 10.19.2-231013-1449
 
 **Assignee** :
 
@@ -529,13 +528,13 @@ With a body:
 }
 ```
 
-**Severity** : High
+**Severity** : Medium
 
 **Priority** : High
 
 **Status** : Open
 
-**Environment** : 13.3.1 (a) (22E772610a), Google Chrome Version 117.0.5938.149; Postman for Web Version 10.19.2-231013-1449
+**Environment** : macOS 13.3.1 (a) (22E772610a), Google Chrome Version 117.0.5938.149; Postman for Web Version 10.19.2-231013-1449
 
 **Assignee** :
 
@@ -552,7 +551,7 @@ With a body:
 
 **Expected result:**
 
-After the first request, the record is deleted. The error 404Not Found should return.
+After the first request, the record is deleted. The error 404Not Found should be returned.
 
 **Actual result:**
 
@@ -566,7 +565,7 @@ Status code is 200 OK. No errors occur.
 
 **Status** : Open
 
-**Environment** : 13.3.1 (a) (22E772610a), Google Chrome Version 117.0.5938.149; Postman for Web Version 10.19.2-231013-1449
+**Environment** : macOS 13.3.1 (a) (22E772610a), Google Chrome Version 117.0.5938.149; Postman for Web Version 10.19.2-231013-1449
 
 **Assignee** :
 
@@ -582,12 +581,12 @@ Status code is 200 OK. No errors occur.
 
 1. Go to [https://wmxrwq14uc.execute-api.us-east-1.amazonaws.com/Prod/Account/Login](https://wmxrwq14uc.execute-api.us-east-1.amazonaws.com/Prod/Account/Login)
 2. Open the devtools;
-3. Check employeeClient.js. In the code there's condition for prod and stage envs
+3. Check employeeClient.js. In the code there's a condition for prod and stage envs;
 4. Navigate to https://wmxrwq14uc.execute-api.us-east-1.amazonaws.com/Stage/Account/Login
 5. Fill in valid credentials;
-6. Click "Login" button
+6. Click "Log In" button
 
-**Expected result:** It is forbidden to login to another environment and make some changes there (Add new employee, edit and delete employee).
+**Expected result:** It is forbidden to login to Stage environment and make some changes there (Add new employee, edit and delete employee).
 
 **Actual result:** It is possible to login to Stage env, see the content and perform actions with the credentials for Prod.
 
@@ -601,7 +600,7 @@ Attachments:
 
 **Status** : Open
 
-**Environment** : 13.3.1 (a) (22E772610a), Google Chrome Version 117.0.5938.149
+**Environment** : macOS 13.3.1 (a) (22E772610a), Google Chrome Version 117.0.5938.149
 
 **Assignee** :
 
