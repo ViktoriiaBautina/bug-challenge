@@ -50,7 +50,7 @@ Toy is in the First name column;
 
 **Date** : 13/10/2023
 
-**ID: 02 Summary** : There is no validation error/message when the Length of the First and Last Name is more than 50 symbols
+<br> <br> **ID: 02 Summary** : There is no validation error/message when the Length of the First and Last Name is more than 50 symbols
 
 **Pre-conditions:**
 
@@ -98,9 +98,9 @@ No validation message appears on UI describing that the field FirstName/Last nam
 
 **Reporter** : Viktoriia Bautina
 
-**Date** : 13/10/2023
+**Date** : 13/10/2023 
 
-**ID: 03 Summary** : It is possible to use numbers and special symbols in Last Name and First name fields
+<br> <br> **ID: 03 Summary** : It is possible to use numbers and special symbols in Last Name and First name fields
 
 **Pre-conditions:**
 
@@ -146,7 +146,7 @@ It is allowed to submit adding a new employee form with numbers and special symb
 
 **Date** : 13/10/2023
 
-**ID: 04 Summary** : Internal server error occurs when Dependents field contains letters or special character
+<br> <br> **ID: 04 Summary** : Internal server error occurs when Dependents field contains letters or special character
 
 **Pre-conditions:**
 
@@ -193,7 +193,7 @@ Validation message occurs explaining that Dependents is a number between 0 and 3
 
 **Date** : 13/10/2023
 
-**ID: 05 Summary** : Automatic logout after 30 minutes user being logged in without any notification
+<br> <br> **ID: 05 Summary** : Automatic logout after 30 minutes user being logged in without any notification
 
 **Pre-conditions:**
 
@@ -236,7 +236,7 @@ There is not any notification message about future logout. Error 401 Unauthorize
 
 **Date** : 13/10/2023
 
-**ID: 06 Summary** : After logout there is no visible actions on UI e.g. redirections on Login page or notification
+<br> <br> **ID: 06 Summary** : After logout there is no visible actions on UI e.g. redirections on Login page or notification
 
 **Pre-conditions:**
 
@@ -254,13 +254,27 @@ Password: M9KREpw#0-(c
 
 **Expected result:**
 
-User is redirected on the Login page after being logged out or notification message occurs.
+User is redirected to the Login page after being logged out or notification message occurs.
 
 **Actual result:**
 
-After logout there is no visible actions on UI (e.g. redirections on Login page or notification describing that user was logged out and it is needed to click on "Log Out" manually.
+After logout, there are no visible actions on UI (e.g. redirections on Login page or notification describing that user was logged out and it is needed to click on "Log Out" manually.
 
-**ID: 07 Summary** : A new created Employee record is displayed random place in the table
+**Severity** : Medium
+
+**Priority** : Medium
+
+**Status** : Open
+
+**Environment** : 13.3.1 (a) (22E772610a), Google Chrome Version 117.0.5938.149
+
+**Assignee** :
+
+**Reporter** : Viktoriia Bautina
+
+**Date** : 13/10/2023
+
+<br> <br> **ID: 07 Summary** : A new created Employee record is displayed random place in the table
 
 **Pre-conditions:**
 
@@ -296,7 +310,7 @@ The order for recently created records is consistent (e.g. on the top, on the bo
 
 **Date** : 13/10/2023
 
-**ID: 08 Summary** : Favicon isn't loaded with error 403 (Forbidden) after refreshing the page
+<br> <br> **ID: 08 Summary** : Favicon isn't loaded with error 403 (Forbidden) after refreshing the page
 
 **Pre-conditions:**
 
@@ -335,7 +349,7 @@ Password: M9KREpw#0-(c
 
 **Date** : 13/10/2023
 
-**ID: 09 Summary** : Error 500 occurs after login with an invalid Username
+<br> <br> **ID: 09 Summary** : Error 500 occurs after login with an invalid Username
 
 **Description** :
 
@@ -375,7 +389,7 @@ The error message occurs: "There were one or more problems that prevented you fr
 
 **Date** : 13/10/2023
 
-**ID: 10 Summary** : Possible to see the content without a login when clicking on "Paylocity Benefits Dashboard"
+<br> <br> **ID: 10 Summary** : Possible to see the content without a login when clicking on "Paylocity Benefits Dashboard"
 
 **Description** :
 
@@ -411,7 +425,7 @@ It is possible to see a table header, "Add" button and Add Employee form without
 
 **Date** : 13/10/2023
 
-**ID: 11 Summary** : API: Error 500 occurs when sending a request to GET Employee with a non-existent ID
+<br> <br> **ID: 11 Summary** : API: Error 500 occurs when sending a request to GET Employee with a non-existent ID
 
 **Description** : Send a request to GET Employee with a non-existent ID
 
@@ -449,7 +463,8 @@ The Internal Server error 500 occurs.
 
 **Date** : 13/10/2023
 
-**ID: 12 Summary** : API: The benefit cost calculations are not correct in the response of PUT request
+
+<br> <br> **ID: 12 Summary** : API: The benefit cost calculations are not correct in the response of PUT request
 
 **Description** :
 
@@ -528,7 +543,7 @@ With a body:
 
 **Date** : 14/10/2023
 
-**ID: 13 Summary** : API: It is possible to send a DELETE many times with the same ID
+<br> <br> **ID: 13 Summary** : API: It is possible to send a DELETE many times with the same ID
 
 **Steps to reproduce:**
 
@@ -559,7 +574,7 @@ Status code is 200 OK. No errors occur.
 
 **Date** : 14/10/2023
 
-**ID: 14 Summary** : Security Vulnerability: It is allowed to log in to Stage environment when changing Stage instead of Prod on this path: https://wmxrwq14uc.execute-api.us-east-1.amazonaws.com/Prod/Account/Login
+<br> <br> **ID: 14 Summary** : Security Vulnerability: It is allowed to log in to Stage environment when changing Stage instead of Prod on this path: https://wmxrwq14uc.execute-api.us-east-1.amazonaws.com/Prod/Account/Login
 
 **Description** : It is allowed to log in to Stage environment with a Prod valid credentials
 
