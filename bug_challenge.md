@@ -33,7 +33,7 @@ Toy is in the First name column;
 
 **Attachments:**
 
-<img width="423" alt="image" src="https://github.com/ViktoriiaBautina/bug-challenge/assets/96127141/5960769e-f4f9-41f4-a58e-42e3a1cbf4e8">
+<img width="452" alt="image" src="https://github.com/ViktoriiaBautina/bug-challenge/blob/main/images/Picture%201.png">
 
 
 **Severity** : Low
@@ -83,7 +83,7 @@ No validation message appears on UI describing that the field FirstName/Last nam
 
 **Attachments:**
 
-<img width="452" alt="image" src="https://github.com/ViktoriiaBautina/bug-challenge/assets/96127141/8e8f26e7-cacf-4b43-9f71-a7ffa597115b">
+<img width="452" alt="image" src="https://github.com/ViktoriiaBautina/bug-challenge/blob/main/images/Picture%202.png">
 
 
 **Severity** : Low
@@ -129,7 +129,7 @@ It is allowed to submit adding a new employee form with numbers and special symb
 
 **Attachments:**
 
-<img width="452" alt="image" src="https://github.com/ViktoriiaBautina/bug-challenge/assets/96127141/45897b16-1ea7-423d-b4c5-983953f80251">
+<img width="452" alt="image" src="https://github.com/ViktoriiaBautina/bug-challenge/blob/main/images/Picture%203.png">
 
 
 **Severity** : Low
@@ -176,8 +176,7 @@ Validation message occurs explaining that Dependants is a number between 0 and 3
 
 **Attachments:**
 
-<img width="242" alt="image" src="https://github.com/ViktoriiaBautina/bug-challenge/assets/96127141/de511efe-cd1b-4030-9ffc-fec89f2c89fb">
-
+<img width="452" alt="image" src="https://github.com/ViktoriiaBautina/bug-challenge/blob/main/images/Picture%204.png">
 
 **Severity** : High
 
@@ -219,7 +218,7 @@ There is not any notification message about future logout. Error 401 Unauthorize
 
 **Attachments:**
 
-<img width="452" alt="image" src="https://github.com/ViktoriiaBautina/bug-challenge/assets/96127141/c59159ad-0b74-4588-a115-cb212539cb3f">
+<img width="452" alt="image" src="https://github.com/ViktoriiaBautina/bug-challenge/blob/main/images/Picture%205.png">
 
 
 **Severity** : Low
@@ -332,7 +331,7 @@ Password: M9KREpw#0-(c
 **Actual result:** Favicon isn't loaded with error 403 (Forbidden) 
 **Attachments:**
 
-<img width="452" alt="image" src="https://github.com/ViktoriiaBautina/bug-challenge/assets/96127141/a7e6def5-eb61-4cf2-ae2b-aa0f3894b51b">
+<img width="452" alt="image" src="https://github.com/ViktoriiaBautina/bug-challenge/blob/main/images/Picture%208.png">
 
 **Severity** : Low
 
@@ -371,8 +370,7 @@ The error message occurs: "There were one or more problems that prevented you fr
 
 **Attachments:**
 
-<img width="452" alt="image" src="https://github.com/ViktoriiaBautina/bug-challenge/assets/96127141/f758d535-56a4-4a8a-ae0b-f0c0e8cb70dc">
-
+<img width="452" alt="image" src="https://github.com/ViktoriiaBautina/bug-challenge/blob/main/images/Picture%209.png">
 
 **Severity** : High
 
@@ -405,9 +403,9 @@ It is possible to see a table header, "Add" button and Add Employee form without
 
 **Attachments:**
 
-<img width="350" alt="image" src="https://github.com/ViktoriiaBautina/bug-challenge/assets/96127141/de571206-772a-49ed-9c1f-7cd83d700fda">
+<img width="452" alt="image" src="https://github.com/ViktoriiaBautina/bug-challenge/blob/main/images/Picture%2010(1).png">
 
-<img width="330" alt="image" src="https://github.com/ViktoriiaBautina/bug-challenge/assets/96127141/f594d515-4a6c-4bb4-ae21-af4756b25d81">
+<img width="330" alt="image" src="https://github.com/ViktoriiaBautina/bug-challenge/blob/main/images/Picture%2010(2).png">
 
 
 **Severity** : High
@@ -445,7 +443,7 @@ The Internal Server error 500 occurs.
 
 **Attachments:**
 
-<img width="452" alt="image" src="https://github.com/ViktoriiaBautina/bug-challenge/assets/96127141/3fb60851-834c-4ca0-a5ac-fb0de16bbe92">
+<img width="452" alt="image" src="https://github.com/ViktoriiaBautina/bug-challenge/blob/main/images/Picture%2011.png">
 
 
 **Severity** : High
@@ -592,7 +590,7 @@ Status code is 200 OK. No errors occur.
 
 Attachments:
 
-<img width="365" alt="image" src="https://github.com/ViktoriiaBautina/bug-challenge/assets/96127141/5ea74a8b-c438-440b-9c1b-3079f0413b23">
+<img width="365" alt="image" src="https://github.com/ViktoriiaBautina/bug-challenge/blob/main/images/Picture%2014.png">
 
 **Severity** : Highest
 
