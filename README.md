@@ -37,4 +37,4 @@ AND I am on the Benefits Dashboard page
 WHEN I click the Action X
 THEN the employee should be deleted
 
-The reported bugs can be found in the following file: bug_challenge.md
+The reported bugs can be found in the following file: [bug_challenge.md](https://github.com/ViktoriiaBautina/bug-challenge/blob/main/bug_challenge.md)
