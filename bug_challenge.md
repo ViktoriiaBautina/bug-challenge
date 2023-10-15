@@ -482,32 +482,35 @@ With a body:
 **Expected result:**
 ```json
 {
-
-"dependants":2,
-
-"salary":52000.0,
-
-"gross":2000.0,
-
-"benefitsCost":76.92308,
-
-"net":1923.0769
+"partitionKey": "TestUser319",
+    "sortKey": "a23eb306-8f31-4991-b00b-97e0c818fdd6",
+    "username": "TestUser319",
+    "id": "a23eb306-8f31-4991-b00b-97e0c818fdd6",
+    "firstName": "Wanda",
+    "lastName": "Maximoff",
+    "dependants":2,
+    "salary":52000.0,
+    "gross":2000.0,
+    "benefitsCost":76.92308,
+    "net":1923.0769
 }
 ```
 
 **Actual result:** The salary and gross are 0.0 and calculations are not correct
 ```json
+
 {
-
-"dependants":2,
-
-"salary":0.0,
-
-"gross":0.0,
-
-"benefitsCost":76.92308,
-
-"net":-76.92308
+"partitionKey": "TestUser319",
+    "sortKey": "a23eb306-8f31-4991-b00b-97e0c818fdd6",
+    "username": "TestUser319",
+    "id": "a23eb306-8f31-4991-b00b-97e0c818fdd6",
+    "firstName": "Wanda",
+    "lastName": "Maximoff",
+    "dependants":2,
+    "salary":0.0,
+    "gross":0.0,
+    "benefitsCost":76.92308,
+    "net":-76.92308
 }
 ```
 
